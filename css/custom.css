@@ -165,7 +165,6 @@
 	width: 260px;
 	height: 260px;
 	border: 2px dashed #ddd;
-	border: 2px dashed rgba(150,150,150,0.4);
 	border-radius: 50%;
 	position: absolute;
 	bottom: 50%;
@@ -295,7 +294,6 @@
 
 .demo-1 .bg-3 .deco {
 	border-color: #fff;
-	border-color: rgba(255,255,255,0.5);
 }
 
 .demo-1 .bg-3 [data-icon]:after {
@@ -314,7 +312,7 @@
 }
 
 .demo-1 .bg-3 blockquote:before {
-	color: #c46c96;
+	color: white;
 }
 
 /* Forth Slide */
@@ -325,12 +323,12 @@
 }
 
 .demo-1 .bg-4 .deco {
-	border-color: #379eaa;
+	border-color: white;
 }
 
 .demo-1 .bg-4 [data-icon]:after {
-	text-shadow: 0 0 1px #277d87;
-	color: #277d87;
+	text-shadow: 0 0 1px white;
+	color: white;
 }
 
 .demo-1 .bg-4 h2,
@@ -340,13 +338,13 @@
 }
 
 .demo-1 .bg-4 blockquote:before {
-	color: #379eaa;
+	color: white;
 }
 
 /* Fifth Slide */
 .demo-1 .bg-5 .sl-slide-inner,
 .demo-1 .bg-5 .sl-content-slice {
-	background: url('../images/9.jpg');
+	background: url('../images/13.jpg');
 	background-size: cover;
 }
 
@@ -356,7 +354,7 @@
 
 .demo-1 .bg-5 .deco:after {
 	color: white;
-	text-shadow: 0 0 1px #000;
+	text-shadow: 0 0 1px white;
 }
 
 .demo-1 .bg-5 h2,
