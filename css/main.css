@@ -1898,7 +1898,7 @@ ruby, section, summary, time, mark, audio, video {
 			}
 
 			.icon.style2:hover {
-				background-color: rgba(255, 255, 255, 0.25);
+				background-color: rgba(255, 255, 255, 0.5);
 			}
 
 			@media screen and (max-width: 736px) {
@@ -2421,7 +2421,7 @@ ruby, section, summary, time, mark, audio, video {
 
 			.thumbnails a:hover {
 				background-color: rgba(255, 255, 255, 0.25);
-				box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #FF6382;
+				box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 grey;
 			}
 
 		.thumbnails > div {
@@ -2643,6 +2643,7 @@ ruby, section, summary, time, mark, audio, video {
 .codrops-demos {
 	padding-top: 10px;
 	margin-top: 5%;
+	margin-bottom: 2%;
 }
 
 .demo-1 .codrops-demos {
@@ -2672,3 +2673,38 @@ ruby, section, summary, time, mark, audio, video {
 	color: #aaa;
 	border-color: #aaa;
 }
+
+.collection {
+	text-align: center;
+}
+
+.collection a img {
+	margin: 5px;
+}
+
+@media screen and (max-width: 1280px) {
+
+			.collection a img{
+				width: 500px;
+				height: auto;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.collection a img{
+				width: 300px;
+				height: auto;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.collection a img{
+				width: 200px;
+				height: auto;
+			}
+
+		}
