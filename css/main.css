@@ -2694,3 +2694,8 @@ ruby, section, summary, time, mark, audio, video {
         width: 100%;
     }
 }
+
+#main h1 {
+	color: black;
+	text-align: center;
+}
