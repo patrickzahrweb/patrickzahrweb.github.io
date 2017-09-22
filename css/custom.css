@@ -122,8 +122,8 @@
 	background: rgba(150,150,150,0.4);
 	cursor: pointer;
 	box-shadow:
-		0 1px 1px rgba(255,255,255,0.4),
-		inset 0 1px 1px rgba(0,0,0,0.1);
+  0 1px 1px rgba(255,255,255,0.4),
+  inset 0 1px 1px rgba(0,0,0,0.1);
 }
 
 .demo-2 .nav-dots span {
@@ -135,17 +135,17 @@
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
 	box-shadow:
-		0 1px 1px rgba(255,255,255,0.4),
-		inset 0 1px 1px rgba(0,0,0,0.1),
-		0 0 0 2px rgba(255,255,255,0.5);
+  0 1px 1px rgba(255,255,255,0.4),
+  inset 0 1px 1px rgba(0,0,0,0.1),
+  0 0 0 2px rgba(255,255,255,0.5);
 }
 
 .demo-2 .nav-dots span.nav-dot-current,
 .demo-2 .nav-dots span:hover {
 	box-shadow:
-		0 1px 1px rgba(255,255,255,0.4),
-		inset 0 1px 1px rgba(0,0,0,0.1),
-		0 0 0 5px rgba(255,255,255,0.5);
+  0 1px 1px rgba(255,255,255,0.4),
+  inset 0 1px 1px rgba(0,0,0,0.1),
+  0 0 0 5px rgba(255,255,255,0.5);
 }
 
 .nav-dots span.nav-dot-current:after {
@@ -183,19 +183,19 @@
 .demo-1 [data-icon]:after {
     content: attr(data-icon);
     font-family: 'Lato', Calibri, Arial, sans-serif;
-	color: #999;
-	text-shadow: 0 0 1px #999;
-	position: absolute;
-	width: 220px;
-	height: 220px;
-	line-height: 220px;
-	text-align: center;
-	font-size: 42px;
-	top: 50%;
-	left: 50%;
-	margin: -110px 0 0 -110px;
-	box-shadow: inset 0 0 0 10px #f7f7f7;
-	border-radius: 50%;
+    color: #999;
+    text-shadow: 0 0 1px #999;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    line-height: 220px;
+    text-align: center;
+    font-size: 42px;
+    top: 50%;
+    left: 50%;
+    margin: -110px 0 0 -110px;
+    box-shadow: inset 0 0 0 10px #f7f7f7;
+    border-radius: 50%;
 }
 
 .demo-1 .sl-slide h2 {
@@ -540,50 +540,57 @@
 /* Media Queries for custom slider */
 
 @media screen and (max-width: 660px) {
-	.demo-1 .deco {
-		width: 130px;
-		height: 130px;
-		margin-left: -65px;
-		margin-bottom: 50px;
-	}
 
-	.demo-1 [data-icon]:after {
-		width: 110px;
-		height: 110px;
-		line-height: 110px;
-		font-size: 20px;
-		margin: -55px 0 0 -55px;
-	}
+    .demo-1 .decologo img#logo {
+        width: 210px;
+        bottom: 42%;
+        left: 50%;
+        margin: 0 0 0 -105px;
+    }
+    .demo-1 .deco {
+      width: 130px;
+      height: 130px;
+      margin-left: -65px;
+      margin-bottom: 50px;
+  }
 
-	.demo-1 .sl-slide blockquote {
-		margin-bottom: -120px;
-	}
+  .demo-1 [data-icon]:after {
+      width: 110px;
+      height: 110px;
+      line-height: 110px;
+      font-size: 20px;
+      margin: -55px 0 0 -55px;
+  }
 
-	.demo-1 .sl-slide h2 {
-		line-height: 22px;
-		font-size: 18px;
-		margin-bottom: -40px;
-		letter-spacing: 8px;
-	}
+  .demo-1 .sl-slide blockquote {
+      margin-bottom: -120px;
+  }
 
-	.demo-1 .sl-slide blockquote p:before {
-		line-height: 10px;
-		width: 40px;
-		height: 40px;
-		font-size: 120px;
-		left: -45px;
-	}
+  .demo-1 .sl-slide h2 {
+      line-height: 22px;
+      font-size: 18px;
+      margin-bottom: -40px;
+      letter-spacing: 8px;
+  }
 
-	.demo-2 .sl-slider-wrapper {
-		height: 500px;
-	}
+  .demo-1 .sl-slide blockquote p:before {
+      line-height: 10px;
+      width: 40px;
+      height: 40px;
+      font-size: 120px;
+      left: -45px;
+  }
 
-	.demo-2 .sl-slider h2 {
-		font-size: 36px;
-	}
+  .demo-2 .sl-slider-wrapper {
+      height: 500px;
+  }
 
-	.demo-2 .sl-slider blockquote {
-		font-size: 16px;
-	}
+  .demo-2 .sl-slider h2 {
+      font-size: 36px;
+  }
+
+  .demo-2 .sl-slider blockquote {
+      font-size: 16px;
+  }
 
 }

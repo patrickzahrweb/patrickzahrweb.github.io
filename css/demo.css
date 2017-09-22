@@ -160,10 +160,34 @@ a {
 .logonav a img {
     position: absolute;
     z-index: 2000;
-    top: 3%;
+    top: 5%;
     left: 85%;
 }
 
 nav#black a {
     color: black;
+}
+
+@media screen and (max-width: 1280px) {
+    .logonav a img {
+        left: 81%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .logonav a img {
+        left: 77%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .logonav a img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .codrops-demos {
+        font-size: 15px;
+    }
 }
