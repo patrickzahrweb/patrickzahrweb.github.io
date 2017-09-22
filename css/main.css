@@ -2565,6 +2565,7 @@ ruby, section, summary, time, mark, audio, video {
 		-webkit-transition: opacity 1s ease, -webkit-filter 1s ease;
 		-ms-transition: opacity 1s ease, -ms-filter 1s ease;
 		transition: opacity 1s ease, filter 1s ease;
+		margin-top: 200px;
 	}
 
 	body.is-loading #wrapper {
@@ -2632,41 +2633,6 @@ ruby, section, summary, time, mark, audio, video {
 			}
 
 		}
-
-/* Demo Buttons Style */
-.codrops-demos {
-	padding-top: 10px;
-	margin-top: 5%;
-	margin-bottom: 2%;
-}
-
-.demo-1 .codrops-demos {
-	position: absolute;
-	z-index: 2000;
-	top: 30px;
-	left: 30px;
-}
-
-.codrops-demos a {
-    display: inline-block;
-    margin: 10px;
-    color: black;
-    font-weight: 700;
-	font-family: 'Lato', Calibri, Arial, sans-serif;
-    line-height: 30px;
-    border-bottom: 4px solid transparent;
-}
-
-.codrops-demos a:hover {
-	color: #2ABB9B;
-	border-color: #2ABB9B;
-}
-
-.codrops-demos a.current-demo,
-.codrops-demos a.current-demo:hover {
-	color: #aaa;
-	border-color: #aaa;
-}
 
 .collection {
 	text-align: center;
