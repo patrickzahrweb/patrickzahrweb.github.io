@@ -172,6 +172,14 @@
 	margin: 0 0 0 -130px;
 }
 
+.demo-1 .decologo img#logo {
+    width: 420px;
+    position: absolute;
+    bottom: 32%;
+    left: 50%;
+    margin: 0 0 0 -210px;
+}
+
 .demo-1 [data-icon]:after {
     content: attr(data-icon);
     font-family: 'Lato', Calibri, Arial, sans-serif;
@@ -259,7 +267,7 @@
 /* First Slide */
 .demo-1 .bg-1 .sl-slide-inner,
 .demo-1 .bg-1 .sl-content-slice {
-	background: url('../images/6.jpg');
+	background: url('../images/sliders/1.jpg');
 	background-size: cover;
 }
 

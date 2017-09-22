@@ -2,19 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 @font-face {
-    font-family: 'AnimalsNormal';
-    src: url('fonts/animals-webfont.eot');
-    src: url('fonts/animals-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/animals-webfont.woff') format('woff'),
-         url('fonts/animals-webfont.ttf') format('truetype'),
-         url('fonts/animals-webfont.svg#AnimalsNormal') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-	font-family: 'SinkinSans';
-	src: url('../assets/fonts/SinkinSans-200XLight.otf');
+	font-family: 'Brandon_light';
+	src: url('../assets/fonts/Brandon_light.otf');
 }
 
 html { height: 100%; }
@@ -37,10 +26,10 @@ html { height: 100%; }
 }
 
 body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-family: 'Brandon_light';
     background: #fff;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 18px;
     color: #333;
     -webkit-font-smoothing: antialiased;
 }
@@ -152,7 +141,7 @@ a {
     display: inline-block;
     margin: 10px;
     color: white;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 30px;
     border-bottom: 4px solid transparent;
 }
