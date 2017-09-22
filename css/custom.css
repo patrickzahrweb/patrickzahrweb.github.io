@@ -99,6 +99,10 @@
 	border-bottom: none;
 }
 
+.codrops-demos > img {
+    border-color: red;
+}
+
 /* Custom navigation dots */
 
 .nav-dots {
