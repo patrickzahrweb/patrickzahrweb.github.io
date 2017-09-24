@@ -153,8 +153,8 @@ a {
 
 .codrops-demos a.current-demo,
 .codrops-demos a.current-demo:hover {
-	color: #aaa;
-	border-color: #aaa;
+	color: white;
+	border-color: #2ABB9B;
 }
 
 .logonav a img {
