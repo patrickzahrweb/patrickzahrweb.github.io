@@ -343,7 +343,7 @@ body.is-covered #wrapper {
 
 @media screen and (max-width: 1280px) {
 
-	.collection a img{
+	.collection img{
 		width: 500px;
 		height: auto;
 	}
@@ -367,7 +367,7 @@ body.is-covered #wrapper {
 
 @media screen and (max-width: 980px) {
 
-	.collection a img{
+	.collection img{
 		width: 300px;
 		height: auto;
 	}
@@ -406,7 +406,7 @@ body.is-covered #wrapper {
 
 @media screen and (max-width: 480px) {
 
-	.collection a img{
+	.collection img{
 		width: 200px;
 		height: auto;
 	}
