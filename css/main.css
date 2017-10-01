@@ -335,9 +335,16 @@ body.is-covered #wrapper {
 	margin: 5px;
 }
 
+.collection img {
+	width: 500px;
+}
+
 @media screen and (min-width: 1281px) {
 	.portraitContainer img {
 		width: 420px;
+	}
+	.portraitContainer {
+		font-size: 18px;
 	}
 }
 
@@ -349,18 +356,18 @@ body.is-covered #wrapper {
 	}
 
 	.portraitContainer img {
-		width: 350px;
+		width: 360px;
+	}
+	.portraitContainer {
+		font-size: 1.3vw;
 	}
 
-	.portraitContainer {
-		font-size: 16px;
-	}
 
 }
 
 @media screen and (max-width: 1030px) {
 	.portraitContainer {
-		font-size: 15px;
+		font-size: 1.4vw;
 	}
 
 }
@@ -377,7 +384,7 @@ body.is-covered #wrapper {
 	}
 
 	.portraitContainer {
-		font-size: 13px;
+		font-size: 1.3vw;
 	}
 
 }
@@ -387,14 +394,14 @@ body.is-covered #wrapper {
 		width: 250px;
 	}
 	.portraitContainer {
-		font-size: 12px;
+		font-size: 1.3vw;
 	}
 }
 
 @media screen and (max-width: 800px) {
 
 	.portraitContainer {
-		font-size: 16px;
+		font-size: 2vmin;
 	}
 
 	.portraitContainer img {
@@ -412,7 +419,7 @@ body.is-covered #wrapper {
 	}
 
 	.portraitContainer {
-		font-size: 14px;
+		font-size: 1.3vw;
 	}
 
 	.portraitContainer img {
@@ -463,5 +470,24 @@ body.is-covered #wrapper {
 		position: absolute;
 		top: 0;
 		right: 0;
-		width: 35em; }
+		width: 50vw;
 	}
+}
+
+.portraitButton {
+	position: relative;
+	top: 0;
+	right: 0;
+	height: 45px;
+	width: 100%;
+}
+
+button {
+	float: right;
+	padding: 10px;
+	border: 0;
+	margin: 5px 0px 5px 0px;
+	color: white;
+	background: grey;
+}
+}

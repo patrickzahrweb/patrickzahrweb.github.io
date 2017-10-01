@@ -29,7 +29,7 @@ body {
     font-family: 'Brandon_light';
     background: #fff;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 23px;
     color: #333;
     -webkit-font-smoothing: antialiased;
 }
@@ -140,7 +140,7 @@ a {
 .codrops-demos a {
     display: inline-block;
     margin: 10px;
-    color: white;
+    color: grey;
     font-weight: 100;
     line-height: 30px;
     border-bottom: 4px solid transparent;
@@ -153,7 +153,7 @@ a {
 
 .codrops-demos a.current-demo,
 .codrops-demos a.current-demo:hover {
-	color: white;
+	color: grey;
 	border-color: #2ABB9B;
 }
 

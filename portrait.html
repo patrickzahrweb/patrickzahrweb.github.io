@@ -29,46 +29,74 @@
             <!-- Main -->
             <section id="main">
 
-                <h1> PORTRAIT </h1>
-
                 <div class="portraitContainer">
                     <div class="portraitLeft">
+                        <div class="portraitButton">
+                        </div>
                         <img src="images/portrait.jpg">
                     </div>
                     <div class="portraitRight">
-                        <p>
-                            Daring contrasts and different textures all while finding a certain
-                            homogeneity, revisiting the classics, crossing the eras. For his creations,
-                            Patrick Zahr diverts the established codes with an ingenuous spirit and a lot
-                            of lightness. He therefore marks his chic and spontaneous style with a
-                            modern elegance and a natural fluidity. Through his creations, the body is
-                            structured by graphic lines, sensuality is suggested by movement.
-                            In a country filled with contrasts and elegance Lebanon, Patrick was born and
-                            raised in a small millennial Phoenician town on the Mediterranean coast, a
-                            short distance from Bayreuth. From a young age, Patrick is fascinated and
-                            attracted to textures and colors, by meticulous craftsmanship. He marked his
-                            professors by his drawings and his creativity. In Bayreuth, he started his
-                            career as an interior designer where he constantly searched to recreate a
-                            unique universe for each of his clients to feel good, from Bayreuth to
-                            Montreal. Patrick work little for others, self-taught, he prefers to learn by
-                            himself through his experiences.
-                            He now expresses himself by fashion design through what makes him feel
-                            alive and animated: far from the established codes, he creates his own
-                            universe with freedom and natural and fresh modernism, at the service of
-                            women and men that he meets and that he loves to magnify. Patrick Zahr
-                            creates his own label under his own name, a hybrid identity where the oriental
-                            softness and beauty irrigate a western style and brings him a refreshing
-                            breeze of the Orient. His workshop elaborates from noble fabrics and fabrics
-                            with ethnic character with modern and precise silhouettes all at once, like a
-                            heritage of his training as an interior architectural designer that marks his
-                            comprehension of fashion. His influences are a mix of his Lebanese origins,
-                            his adoptive Canada and his numerous trips to Paris, a source of so many
-                            inspirations and breaths.
+                        <div class="portraitButton">
+                            <button id="toggle" onclick="changeLanguage()"> French </button>
+                        </div>
+                        <p id="en">
+                            He dares to contrast and combine different textures while maintaining a certain homogeneity, revisiting the classics, and crossing the eras.  For his creations, Patrick Zahr breaks with tradition, with an ingenuous spirit and a penchant for the ethereal. His style is characteristically chic and spontaneous, translating a modern elegance and a natural fluidity. With his creations, the body is framed by graphic lines; sensuality is revealed by movement.
+
+                            Patrick was born in Lebanon, a country of contrasts and elegance, and raised in a small millennial Phoenician town on the Mediterranean coast, a short distance from Beirut. From a young age, Patrick was fascinated and attracted to textures, colors and meticulous craftsmanship. He impressed his professors with his drawings and creativity. In Beirut, he started his career as an interior designer where he diligently sought, from Beirut to Montreal, to create a space unique to each client and suited to their wellbeing. Patrick has worked little for others; he is self-taught, preferring to learn through experience.
+
+                            It is now through fashion design that he expresses his drive and passion: far from traditional, he has created his own world, imbued with freedom and modern naturalness and freshness, at the service of women and men that he meets and that he loves to enhance. Patrick Zahr has his own label, under his own name, which reflects a hybrid identity where oriental softness and beauty irrigate a western style and reminds him of a refreshing breeze from the East. His workshop works with precious fabrics and ethnic materials from which both modern and precise silhouettes are fabricated, a heritage of his training in interior architectural design which imbues his approach to fashion. His influences are a blend of Lebanese origins, his adoptive Canada, and numerous stays in Paris, a source of endless inspiration and vitality.
+                        </p>
+                        <p id="fr" style="display: none">
+                            Oser les contrastes et les différentes textures tout en retrouvant une certaine
+                            homogénéité, revisiter les classiques, traverser les époques. Pour ses créations,
+                            Patrick Zahr détourne les codes établis avec un esprit ingénieux et plein de
+                            légèreté. Il marque ainsi son style chic et spontané, d’une élégance moderne et
+                            d’une fluidité naturelle. À travers ces créations, le corps est structuré par des
+                            lignes graphiques, la sensualité suggérée par le mouvement.
+                            Dans un pays de contraste et d’élégance le LIBAN, Patrick est né et a grandi
+                            dans une petite ville phénicienne millénaire au bord de la méditerranée, à
+                            quelques encablures de Beyrouth. Dès son plus jeune âge, Patrick est fasciné
+                            et attiré par les textures et les couleurs, par le travail artisanal minutieux. Il a
+                            marqué ses professeurs par ses dessins et sa créativité. À Beyrouth, il débute
+                            sa carrière dans le design d’intérieur où il cherche sans cesse à recréer un
+                            univers unique afin que chacun de ses clients, de Beyrouth à Montréal, se
+                            sente bien. Patrick a peu travaillé pour d’autres, autodidacte il préfère
+                            apprendre par lui-même, au gré de ses expériences.
+                            C’est maintenant dans le design de mode qu’il exprime ce qui le fait vivre et
+                            l’anime : loin des codes établis, il crée son propre univers empreint de liberté
+                            et de modernité naturelle et fraiche, au service des femmes et des hommes
+                            qu’il rencontre et qu’il aime magnifier. Patrick Zahr crée sa marque sous son
+                            propre nom, d’une identité hybride où la douceur et la beauté orientale
+                            irriguent un style occidental et lui apporte cette brise rafraichissante de
+                            l’Orient. Son atelier travaille les tissus nobles et des étoffes de caractère
+                            ethnique où se découpent des silhouettes modernes et précises à la fois, comme
+                            un héritage de sa formation de designer en architecture d’intérieur qui
+                            marque sa compréhension de la mode. Ses influences se métissent entre son
+                            Liban d’origines, son Canada d’adoption et ses nombreux séjours à Paris
+                            source de tant d’inspirations et de respirations.
                         </p>
                     </div>
                 </div>
 
+                <!-- Language button toggle -->
+                <script>
+                    function changeLanguage() {
 
+                        var button = document.getElementById("toggle");
+                        var text_en = document.getElementById("en");
+                        var text_fr = document.getElementById("fr");
+
+                        if (button.innerHTML == "English") {
+                            button.innerHTML = "French";
+                            text_fr.style.display = "none";
+                            text_en.style.display = "block";
+                        } else {
+                            button.innerHTML = "English";
+                            text_fr.style.display = "block";
+                            text_en.style.display = "none";
+                        }
+                    }
+                </script>
 
                 <!-- Footer -->
                 <footer id="footer">
