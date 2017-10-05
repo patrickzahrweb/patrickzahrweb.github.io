@@ -339,13 +339,28 @@ body.is-covered #wrapper {
 	width: 500px;
 }
 
-@media screen and (min-width: 1281px) {
-	.portraitContainer img {
-		width: 420px;
-	}
-	.portraitContainer {
-		font-size: 18px;
-	}
+/* PORTRAIT */
+
+.portraitContainer {
+	display: flex;
+	width: 960px;
+	margin: auto;
+}
+
+.portraitContainer .portraitLeft img {
+	width: 100%;
+}
+
+.portraitLeft {
+	flex-basis: 30%;
+	padding: 15px;
+}
+
+.portraitRight {
+	flex-basis: 70%;
+	padding: 15px;
+	font-size: 12pt;
+	text-align: justify;
 }
 
 @media screen and (max-width: 1280px) {
@@ -354,61 +369,76 @@ body.is-covered #wrapper {
 		width: 500px;
 		height: auto;
 	}
-
-	.portraitContainer img {
-		width: 360px;
-	}
-	.portraitContainer {
-		font-size: 1.3vw;
-	}
-
-
 }
 
-@media screen and (max-width: 1030px) {
-	.portraitContainer {
-		font-size: 1.4vw;
-	}
+@media screen and (max-width: 1070px) {
 
+	.portraitContainer {
+		width: 800px;
+	}
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 960px) {
 
 	.collection img{
 		width: 300px;
 		height: auto;
 	}
 
-	.portraitContainer img {
+	.portraitLeft {
+		flex-basis: 20%;
+		padding: 15px;
+	}
+
+	.portraitRight {
+		flex-basis: 80%;
+		padding: 15px;
+		font-size: 11pt;
+		text-align: justify;
+	}
+
+}
+
+@media screen and (max-width: 920px) {
+
+	.portraitContainer {
+		display: block;
+		width: 600px;
+	}
+
+	.portraitContainer .portraitLeft img {
+		display: block;
+		width: 50%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 710px) {
+
+	.portraitContainer {
+		display: block;
+		width: 400px;
+	}
+
+	.portraitContainer .portraitLeft img {
+		display: block;
+		width: 69%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 510px) {
+
+	.portraitContainer {
+		display: block;
 		width: 300px;
 	}
 
-	.portraitContainer {
-		font-size: 1.3vw;
+	.portraitContainer .portraitLeft img {
+		display: block;
+		width: 69%;
+		margin: auto;
 	}
-
-}
-
-@media screen and (max-width: 900px) {
-	.portraitContainer img {
-		width: 250px;
-	}
-	.portraitContainer {
-		font-size: 1.3vw;
-	}
-}
-
-@media screen and (max-width: 800px) {
-
-	.portraitContainer {
-		font-size: 2vmin;
-	}
-
-	.portraitContainer img {
-		width: 100%;
-		margin-bottom: 10px;
-	}
-
 }
 
 @media screen and (max-width: 480px) {
@@ -416,14 +446,6 @@ body.is-covered #wrapper {
 	.collection img{
 		width: 200px;
 		height: auto;
-	}
-
-	.portraitContainer {
-		font-size: 1.3vw;
-	}
-
-	.portraitContainer img {
-		width: 100%;
 	}
 
 }
@@ -455,23 +477,9 @@ body.is-covered #wrapper {
 	text-align: center;
 }
 
-.portraitContainer {
-	position: relative;
-	margin: .5em;
-	text-align: justify;
-}
 
 
 @media screen and (min-width: 800px) {
-	.portraitLeft { margin-right: 19.5em;
-	}
-
-	.portraitRight {
-		position: absolute;
-		top: 0;
-		right: 0;
-		width: 50vw;
-	}
 }
 
 .portraitButton {
@@ -489,5 +497,4 @@ button {
 	margin: 5px 0px 5px 0px;
 	color: white;
 	background: grey;
-}
 }

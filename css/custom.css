@@ -173,6 +173,7 @@
 }
 
 .demo-1 .decologo img#logo {
+    display: none;
     width: 420px;
     position: absolute;
     bottom: 32%;
@@ -593,9 +594,19 @@
       font-size: 16px;
   }
 
-  .demo-1 .bg-2 .sl-slide-inner,
-  .demo-1 .bg-2 .sl-content-slice {
+  .demo-1 .decologo img#logo {
+    display: block;
+}
+
+.demo-1 .bg-2 .sl-slide-inner,
+.demo-1 .bg-2 .sl-content-slice {
     background: url('../images/sliders/3_mobile.jpg');
+    background-size: cover;
+}
+
+.demo-1 .bg-1 .sl-slide-inner,
+.demo-1 .bg-1 .sl-content-slice {
+    background: url('../images/sliders/1_mobile.jpg');
     background-size: cover;
 }
 

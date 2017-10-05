@@ -161,7 +161,8 @@ a {
     position: absolute;
     z-index: 2000;
     top: 5%;
-    left: 85%;
+    right: 40px;
+    height: 100px;
 }
 
 nav#black a {
@@ -169,18 +170,17 @@ nav#black a {
 }
 
 @media screen and (max-width: 1280px) {
-    .logonav a img {
-        left: 81%;
-    }
 }
 
 @media screen and (max-width: 980px) {
-    .logonav a img {
-        left: 77%;
-    }
 }
 
 @media screen and (max-width: 800px) {
+
+    .codrops-demos {
+        font-size: 18px;
+    }
+
     .logonav a img {
         display: none;
     }
@@ -189,5 +189,11 @@ nav#black a {
 @media screen and (max-width: 480px) {
     .codrops-demos {
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .codrops-demos {
+        font-size: 12px;
     }
 }
