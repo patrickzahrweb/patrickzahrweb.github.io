@@ -309,6 +309,7 @@ body.is-covered #wrapper {
 /* Footer */
 
 #footer {
+	font-size: 16px;
 	color: black;
 	font-weight: bold;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
@@ -410,6 +411,12 @@ body.is-covered #wrapper {
 		display: block;
 		width: 50%;
 		margin: auto;
+	}
+
+	.portraitButton {
+		margin-top: 10px;
+		display: flex;
+		justify-content: center;
 	}
 }
 

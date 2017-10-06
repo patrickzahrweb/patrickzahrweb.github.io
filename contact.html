@@ -38,6 +38,11 @@
                       styles: [{"featureType":"road","elementType":"labels","stylers":[{"visibility":"on"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"administrative","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"weight":1}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"weight":0.8}]},{"featureType":"landscape","stylers":[{"color":"#ffffff"}]},{"featureType":"water","stylers":[{"visibility":"off"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"elementType":"labels","stylers":[{"visibility":"off"}]},{"elementType":"labels.text","stylers":[{"visibility":"on"}]},{"elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"elementType":"labels.text.fill","stylers":[{"color":"#000000"}]},{"elementType":"labels.icon","stylers":[{"visibility":"on"}]}]
                   };
                   var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                  var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(45.528733, -73.617622),
+                    title:"Patrick Zahr"
+                });
+                  marker.setMap(map);
               }
           </script>
 
@@ -48,7 +53,7 @@
 
       <div class="contactInfo">
         <div>
-           <h3>Location</h3>
+           <h3>Location (by appointment)</h3>
            <p>6830 avenue du parc suite 209 <br> Montréal, QC H3N 1W7</p>
        </div>
        <div>
