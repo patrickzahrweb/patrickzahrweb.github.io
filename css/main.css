@@ -332,6 +332,15 @@ body.is-covered #wrapper {
 	color: black;
 }
 
+.collection h1 > span#bold {
+	font-weight: 900;
+}
+
+.collection h1 > span#light {
+	font-weight: lighter;
+	color: #484848;
+}
+
 .collection a img {
 	margin: 5px;
 }
