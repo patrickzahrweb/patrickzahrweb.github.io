@@ -5,74 +5,85 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/custom.css" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108262248-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108262248-1');
+  </script>
+
 </head>
 <body>
 
-    <div class="container demo-1">
-        <nav class="codrops-demos" id="black">
-            <a href="index.html">Home</a>
-            <a href="collections.html">Collections</a>
-            <a href="portrait.html">Portrait</a>
-            <a href="stockists.html">Stockists</a>
-            <a class="current-demo"href="contact.html">Contact</a>
-        </nav>
+  <div class="container demo-1">
+    <nav class="codrops-demos" id="black">
+      <a href="index.html">Home</a>
+      <a href="collections.html">Collections</a>
+      <a href="portrait.html">Portrait</a>
+      <a href="stockists.html">Stockists</a>
+      <a class="current-demo"href="contact.html">Contact</a>
+    </nav>
 
-        <nav class="logonav">
-            <a href="index.html"><img src="images/logonav.png"></a>
-        </nav>
+    <nav class="logonav">
+      <a href="index.html"><img src="images/logonav.png"></a>
+    </nav>
 
-        <!-- Wrapper -->
-        <div id="wrapper">
+    <!-- Wrapper -->
+    <div id="wrapper">
 
-          <section id="main">
+      <section id="main">
 
-            <div id="googleMap" style="width:100%;height:400px;"></div>
+        <div id="googleMap" style="width:100%;height:400px;"></div>
 
-            <script>
-                function myMap() {
-                   var mapProp= {
-                      center:new google.maps.LatLng(45.528733, -73.617622),
-                      zoom: 17,
-                      styles: [{"featureType":"road","elementType":"labels","stylers":[{"visibility":"on"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"administrative","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"weight":1}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"weight":0.8}]},{"featureType":"landscape","stylers":[{"color":"#ffffff"}]},{"featureType":"water","stylers":[{"visibility":"off"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"elementType":"labels","stylers":[{"visibility":"off"}]},{"elementType":"labels.text","stylers":[{"visibility":"on"}]},{"elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"elementType":"labels.text.fill","stylers":[{"color":"#000000"}]},{"elementType":"labels.icon","stylers":[{"visibility":"on"}]}]
-                  };
-                  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-                  var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(45.528733, -73.617622),
-                    title:"Patrick Zahr"
-                });
-                  marker.setMap(map);
-              }
-          </script>
+        <script>
+          function myMap() {
+           var mapProp= {
+            center:new google.maps.LatLng(45.528733, -73.617622),
+            zoom: 17,
+            styles: [{"featureType":"road","elementType":"labels","stylers":[{"visibility":"on"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"administrative","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"weight":1}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"weight":0.8}]},{"featureType":"landscape","stylers":[{"color":"#ffffff"}]},{"featureType":"water","stylers":[{"visibility":"off"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"elementType":"labels","stylers":[{"visibility":"off"}]},{"elementType":"labels.text","stylers":[{"visibility":"on"}]},{"elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"elementType":"labels.text.fill","stylers":[{"color":"#000000"}]},{"elementType":"labels.icon","stylers":[{"visibility":"on"}]}]
+          };
+          var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+          var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(45.528733, -73.617622),
+            title:"Patrick Zahr"
+          });
+          marker.setMap(map);
+        }
+      </script>
 
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3DSwVD3GnK7S0FSNg-j36agH8QxKZO70&callback=myMap">
-          </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3DSwVD3GnK7S0FSNg-j36agH8QxKZO70&callback=myMap">
+      </script>
 
-      </section>
+    </section>
 
-      <div class="contactInfo">
-        <div>
-           <h3>Location (by appointment)</h3>
-           <p>6830 avenue du parc suite 209 <br> Montréal, QC H3N 1W7</p>
-       </div>
-       <div>
-           <h3>Phone</h3>
-           <p>+1 514 123-4567</p>
-       </div>
-       <div>
-           <h3>E-mail</h3>
-           <p>patrickzahr@mail.ca</p>
-       </div>
+    <div class="contactInfo">
+      <div>
+       <h3>Location (by appointment)</h3>
+       <p>6830 avenue du parc suite 209 <br> Montréal, QC H3N 1W7</p>
+     </div>
+     <div>
+       <h3>Phone</h3>
+       <p>+1 514 123-4567</p>
+     </div>
+     <div>
+       <h3>E-mail</h3>
+       <p>patrickzahr@mail.ca</p>
+     </div>
    </div>
 
    <!-- Footer-->
    <footer id="footer">
      <a href="https://www.facebook.com" target="_blank">Facebook | </a>
      <a href="https://www.instagram.com" target="_blank">Instagram</a>
- </footer>
+   </footer>
 
-</div>
+ </div>
 </div>
 
 <!-- Scripts -->
