@@ -341,12 +341,26 @@ body.is-covered #wrapper {
 	color: #484848;
 }
 
-.collection a img {
-	margin: 5px;
+.collection img {
+	width: 400px;
+	margin: 20px;
 }
 
-.collection img {
-	width: 500px;
+.single {
+	display: flex;
+	justify-content: center;
+}
+
+.single {
+	flex-basis: 100%;
+}
+
+.double {
+	display: flex;
+}
+
+.double-left, .double-right {
+	flex-basis: 50%;
 }
 
 /* PORTRAIT */
@@ -373,12 +387,12 @@ body.is-covered #wrapper {
 	text-align: justify;
 }
 
+.stockistsContainer {
+	margin-bottom: 150px;
+}
+
 @media screen and (max-width: 1280px) {
 
-	.collection img{
-		width: 500px;
-		height: auto;
-	}
 }
 
 @media screen and (max-width: 1070px) {
@@ -411,6 +425,11 @@ body.is-covered #wrapper {
 
 @media screen and (max-width: 920px) {
 
+	.collection img{
+		width: 250px;
+		height: auto;
+	}
+
 	.portraitContainer {
 		display: block;
 		width: 600px;
@@ -431,6 +450,11 @@ body.is-covered #wrapper {
 
 @media screen and (max-width: 710px) {
 
+	.collection img {
+		width: 200px;
+		height: auto;
+	}
+
 	.portraitContainer {
 		display: block;
 		width: 400px;
@@ -443,7 +467,18 @@ body.is-covered #wrapper {
 	}
 }
 
+@media screen and (max-width: 610px) {
+
+	.collection img {
+		width: 175px;
+	}
+}
+
 @media screen and (max-width: 510px) {
+
+	.collection img {
+		width: 150px;
+	}
 
 	.portraitContainer {
 		display: block;
@@ -458,6 +493,10 @@ body.is-covered #wrapper {
 }
 
 @media screen and (max-width: 480px) {
+
+	.single, .double {
+		display: block;
+	}
 
 	.collection img{
 		width: 200px;
