@@ -222,7 +222,7 @@
 	text-align: center;
 	left: 0;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 20px;
 	height: 70px;
 	color: white;
@@ -541,7 +541,7 @@ quote:before {
 
 /* Media Queries for custom slider */
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 800px) {
 
     .demo-1 .decologo img#logo {
         width: 210px;
@@ -608,6 +608,12 @@ quote:before {
 .demo-1 .bg-1 .sl-slide-inner,
 .demo-1 .bg-1 .sl-content-slice {
     background: url('../images/sliders/1_mobile.jpg');
+    background-size: cover;
+}
+
+.demo-1 .bg-3 .sl-slide-inner,
+.demo-1 .bg-3 .sl-content-slice {
+    background: url('../images/sliders/2_mobile.jpg');
     background-size: cover;
 }
 

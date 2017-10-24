@@ -316,6 +316,11 @@ body.is-covered #wrapper {
 	text-align: center;
 	padding: 4em 0 4em 0;
 }
+
+.copyright {
+	color: lightgrey;
+}
+
 @media screen and (max-width: 1280px) {
 
 	#footer {
@@ -383,12 +388,12 @@ body.is-covered #wrapper {
 .portraitRight {
 	flex-basis: 70%;
 	padding: 15px;
-	font-size: 12pt;
+	font-size: 10.5pt;
 	text-align: justify;
 }
 
 .stockistsContainer {
-	margin-bottom: 150px;
+	margin-bottom: 250px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -399,6 +404,13 @@ body.is-covered #wrapper {
 
 	.portraitContainer {
 		width: 800px;
+	}
+
+	.portraitRight {
+		flex-basis: 80%;
+		padding: 15px;
+		font-size: 8.5pt;
+		text-align: justify;
 	}
 }
 
@@ -417,7 +429,7 @@ body.is-covered #wrapper {
 	.portraitRight {
 		flex-basis: 80%;
 		padding: 15px;
-		font-size: 11pt;
+		font-size: 7.2pt;
 		text-align: justify;
 	}
 
@@ -445,6 +457,13 @@ body.is-covered #wrapper {
 		margin-top: 10px;
 		display: flex;
 		justify-content: center;
+	}
+
+	.portraitRight {
+		flex-basis: 80%;
+		padding: 15px;
+		font-size: 12pt;
+		text-align: justify;
 	}
 }
 
