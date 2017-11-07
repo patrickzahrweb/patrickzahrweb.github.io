@@ -347,7 +347,7 @@ body.is-covered #wrapper {
 }
 
 .collection img {
-	width: 400px;
+	width: 500px;
 	margin: 20px;
 }
 
@@ -393,6 +393,7 @@ body.is-covered #wrapper {
 }
 
 .stockistsContainer {
+	margin-top: 350px;
 	margin-bottom: 250px;
 }
 
@@ -417,7 +418,7 @@ body.is-covered #wrapper {
 @media screen and (max-width: 960px) {
 
 	.collection img{
-		width: 300px;
+		width: 400px;
 		height: auto;
 	}
 
@@ -438,7 +439,7 @@ body.is-covered #wrapper {
 @media screen and (max-width: 920px) {
 
 	.collection img{
-		width: 250px;
+		width: 350px;
 		height: auto;
 	}
 
@@ -470,7 +471,7 @@ body.is-covered #wrapper {
 @media screen and (max-width: 710px) {
 
 	.collection img {
-		width: 200px;
+		width: 300px;
 		height: auto;
 	}
 
@@ -489,14 +490,14 @@ body.is-covered #wrapper {
 @media screen and (max-width: 610px) {
 
 	.collection img {
-		width: 175px;
+		width: 275px;
 	}
 }
 
 @media screen and (max-width: 510px) {
 
 	.collection img {
-		width: 150px;
+		width: 250px;
 	}
 
 	.portraitContainer {
