@@ -398,10 +398,18 @@ body.is-covered #wrapper {
 }
 
 @media screen and (max-width: 1280px) {
-
+	.collection img{
+		width: 450px;
+		height: auto;
+	}
 }
 
 @media screen and (max-width: 1070px) {
+
+	.collection img{
+		width: 400px;
+		height: auto;
+	}
 
 	.portraitContainer {
 		width: 800px;
@@ -418,7 +426,7 @@ body.is-covered #wrapper {
 @media screen and (max-width: 960px) {
 
 	.collection img{
-		width: 400px;
+		width: 350px;
 		height: auto;
 	}
 
@@ -439,7 +447,7 @@ body.is-covered #wrapper {
 @media screen and (max-width: 920px) {
 
 	.collection img{
-		width: 350px;
+		width: 300px;
 		height: auto;
 	}
 
@@ -467,11 +475,18 @@ body.is-covered #wrapper {
 		text-align: justify;
 	}
 }
+@media screen and (max-width: 800px) {
+
+	.collection img {
+		width: 275px;
+		height: auto;
+	}
+}
 
 @media screen and (max-width: 710px) {
 
 	.collection img {
-		width: 300px;
+		width: 225px;
 		height: auto;
 	}
 
@@ -490,14 +505,14 @@ body.is-covered #wrapper {
 @media screen and (max-width: 610px) {
 
 	.collection img {
-		width: 275px;
+		width: 175px;
 	}
 }
 
 @media screen and (max-width: 510px) {
 
 	.collection img {
-		width: 250px;
+		width: 150px;
 	}
 
 	.portraitContainer {
@@ -519,7 +534,7 @@ body.is-covered #wrapper {
 	}
 
 	.collection img{
-		width: 200px;
+		width: 250px;
 		height: auto;
 	}
 
