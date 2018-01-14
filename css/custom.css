@@ -351,6 +351,11 @@
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
+.demo-1 .bg-4 [data-icon]:after,
+.demo-1 .bg-4 h2 a {
+    color: #fff;
+}
+
 .demo-1 .bg-4 block
 quote:before {
 	color: white;
@@ -604,21 +609,27 @@ quote:before {
     display: block;
 }
 
-.demo-1 .bg-2 .sl-slide-inner,
-.demo-1 .bg-2 .sl-content-slice {
-    background: url('../images/sliders/3_mobile.jpg');
-    background-size: cover;
-}
-
 .demo-1 .bg-1 .sl-slide-inner,
 .demo-1 .bg-1 .sl-content-slice {
     background: url('../images/sliders/1_mobile.jpg');
     background-size: cover;
 }
 
+.demo-1 .bg-2 .sl-slide-inner,
+.demo-1 .bg-2 .sl-content-slice {
+    background: url('../images/sliders/9_mobile.jpg');
+    background-size: cover;
+}
+
 .demo-1 .bg-3 .sl-slide-inner,
 .demo-1 .bg-3 .sl-content-slice {
-    background: url('../images/sliders/2_mobile.jpg');
+    background: url('../images/sliders/23_mobile.jpg');
+    background-size: cover;
+}
+
+.demo-1 .bg-4 .sl-slide-inner,
+.demo-1 .bg-4 .sl-content-slice {
+    background: url('../images/sliders/3_mobile.jpg');
     background-size: cover;
 }
 
