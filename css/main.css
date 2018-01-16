@@ -351,6 +351,10 @@ body.is-covered #wrapper {
 	margin: 20px;
 }
 
+.landscape-img img {
+	width: 80vmin;
+}
+
 .single {
 	display: flex;
 	justify-content: center;
@@ -366,6 +370,14 @@ body.is-covered #wrapper {
 
 .double-left, .double-right {
 	flex-basis: 50%;
+}
+
+.double-left {
+	text-align: right;
+}
+
+.double-right {
+	text-align: left;
 }
 
 /* PORTRAIT */
@@ -402,6 +414,10 @@ body.is-covered #wrapper {
 		width: 450px;
 		height: auto;
 	}
+
+	.landscape-img img {
+		width: 90vmin;
+	}
 }
 
 @media screen and (max-width: 1070px) {
@@ -409,6 +425,10 @@ body.is-covered #wrapper {
 	.collection img{
 		width: 400px;
 		height: auto;
+	}
+
+	.landscape-img img {
+		width: 80vmin;
 	}
 
 	.portraitContainer {
@@ -430,6 +450,10 @@ body.is-covered #wrapper {
 		height: auto;
 	}
 
+	.landscape-img img {
+		width: 80vmin;
+	}
+
 	.portraitLeft {
 		flex-basis: 20%;
 		padding: 15px;
@@ -449,6 +473,10 @@ body.is-covered #wrapper {
 	.collection img{
 		width: 300px;
 		height: auto;
+	}
+
+	.landscape-img img {
+		width: 70vmin;
 	}
 
 	.portraitContainer {
@@ -481,6 +509,10 @@ body.is-covered #wrapper {
 		width: 275px;
 		height: auto;
 	}
+
+	.landscape-img img {
+		width: 70vmin;
+	}
 }
 
 @media screen and (max-width: 710px) {
@@ -488,6 +520,10 @@ body.is-covered #wrapper {
 	.collection img {
 		width: 225px;
 		height: auto;
+	}
+
+	.landscape-img img {
+		width: 60vmin;
 	}
 
 	.portraitContainer {
@@ -507,12 +543,20 @@ body.is-covered #wrapper {
 	.collection img {
 		width: 175px;
 	}
+
+	.landscape-img img {
+		width: 60vmin;
+	}
 }
 
 @media screen and (max-width: 510px) {
 
 	.collection img {
 		width: 150px;
+	}
+
+	.landscape-img img {
+		width: 60vmin;
 	}
 
 	.portraitContainer {
@@ -531,6 +575,10 @@ body.is-covered #wrapper {
 
 	.single, .double {
 		display: block;
+	}
+
+	.double-left, .double-right {
+		text-align: center;
 	}
 
 	.collection img{
